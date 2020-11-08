@@ -7,7 +7,7 @@
 </p>
 
 ****
-<img src=".assets/2020-11-08-181453_1366x768_scrot.png" alt="img" align="right" width="700px">
+<img src=".assets/2020-11-08-181453_1366x768_scrot.png" alt="img" align="center" width="700px">
 
 ****
 <img src=".assets/WM(1).jpg" alt="img" align="right" width="400px">
