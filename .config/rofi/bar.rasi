@@ -1,0 +1,165 @@
+configuration {
+	display-drun:    "/";
+	display-window:  "";
+	show-icons:      false;	
+	sidebar-mode:    true; 
+        
+}
+
+* {
+	background-color:            #121e25;
+        sel-bg-col:                  #181c1f;
+	text-color:                  #91adb9;
+	selbg:                       #41bdd3;
+        text-color:                  #91adb9;
+	actbg:                       #212d32;
+	urgbg:                       #e53935;
+	winbg:			     #41bdd3; 
+        bgalt:			     #41bdd3;
+
+	selected-normal-foreground:  @winbg;
+	normal-foreground:           @text-color;
+	selected-normal-background:  @actbg;
+	normal-background:           @background-color;
+        alternate-background:        @bgalt;
+
+	selected-urgent-foreground:  @background-color;
+	urgent-foreground:           @text-color;
+	selected-urgent-background:  @urgbg;
+	urgent-background:           @background-color;
+
+	selected-active-foreground:  @winbg;
+	active-foreground:           @text-color;
+	selected-active-background:  @actbg;
+	active-background:           @selbg;
+
+	line-margin:                 10;
+	line-padding:                10;
+	separator-style:             "none";
+	hide-scrollbar:              "true";
+	margin:                      0px;
+	padding:                     0px;
+	font:            "Iosevka NerdFont Mono 11";
+}
+
+window {
+	location:	 west;
+	anchor:		 west; 
+	height:		 100
+%;
+	width:		 400px; 
+	orientation: horizontal;
+	children:	 [mainbox];
+}
+
+mainbox {
+	spacing:  0em;
+	padding: 0px;
+	width: 200px;
+        border: 0px 0px 0px 0px solid;
+	children: [ inputbar, message, listview, sidebar ];
+	expand: true; 
+}
+
+button { 
+	padding: 8px 2px;   
+	text-color: #7D95A0; 
+}	
+
+button selected {
+	background-color: @sel-bg-col;
+	text-color:       @winbg; 
+    /**	border:  0 0 2px 0 solid;
+        border-color: #009688; */    
+}
+
+textbox {
+	expand:         false;
+	text-color:     @normal-foreground;
+	background-color: #212D32;
+	padding:        12px;
+        border: 0 0 2px 0 solid;
+	font:            "Iosevka NerdFont Mono 9"; 
+        horizontal-align: 0; 
+
+}
+
+inputbar {
+     children: [ entry ];
+     border: 0px 0px 10px 0px solid;
+}
+
+textbox-prompt-colon {                                                
+     text-color: inherit;                                              
+     expand: false;                                                    
+     margin: 0 0.3em 0em 0em;
+ }  
+
+listview {
+	spacing: 0em;
+	dynamic: false;
+	cycle:   true;  
+}
+
+element { 
+	padding: 8px;
+	border:  0 0 0 5px solid; 
+        horizontal-align: 0; 
+}
+
+entry {
+	expand:         true;
+	text-color:     @normal-foreground;
+	background-color: #212D32;
+	vertical-align: 1;
+	padding:        12px;
+	font:            "Iosevka NerdFont Mono 13";
+}
+
+element normal.normal {
+	background-color: @normal-background;
+	text-color:       @normal-foreground;
+}
+
+element normal.urgent {
+	background-color: @urgent-background;
+	text-color:       @urgent-foreground;
+}
+
+element normal.active {
+	background-color: @active-background;
+	text-color:       @active-foreground;
+}
+
+element selected.normal {
+	background-color: @selected-normal-background;
+	text-color:       @selected-normal-foreground;
+	padding: 16px;
+	border:           0 0 0 5px solid;
+	border-color:	    @active-background;
+}
+
+element selected.urgent {
+	background-color: @selected-urgent-background;
+	text-color:       @selected-urgent-foreground;
+}
+
+element selected.active {
+	background-color: @selected-active-background;
+	text-color:       @selected-active-foreground;
+}
+
+element alternate.normal {
+	background-color: @normal-background;
+	text-color:       @normal-foreground;
+}
+
+element alternate.urgent {
+	background-color: @urgent-background;
+	text-color:       @urgent-foreground;
+}
+
+element alternate.active {
+	background-color: @active-background;
+	text-color:       @active-foreground;
+}
