@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="25%" src=".assets/BeFunky-snapshot.png" />
+  <img width="50%" src=".assets/BeFunky-snapshot.png" />
 </p>
 
 <p align="center">
