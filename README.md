@@ -5,8 +5,9 @@
 <p align="center">
   <b> Sam's NixOS Setup </b>
 </p>
-
+****
 <img src=".assets/WM(1).jpg" alt="img" align="right" width="400px">
+****
 
 This is my AwesomeWM config ( Forked from Material Awesome
 
