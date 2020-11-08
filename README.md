@@ -51,7 +51,7 @@ Here are some details about my setup:
 - New release: Code name `NixSome`
 - Customised From the great material-awesome
 - Bluish Color 
-- Dashboard has App-Menu,Window-switcher,run-Launcher ( rofi ) which can be interswitched with alt+1,2,3,4
+- App-Menu with multi option ( alt+1,2,3,4)
 - Chaotic code ( new to lua )
 
 ## Setup
