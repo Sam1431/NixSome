@@ -6,7 +6,7 @@
   <b> Sam's NixOS Setup </b>
 </p>
 
-<img src=".assets/2020-11-08-181644_1366x768_scrot.png" alt="img" align="right" width="400px">
+<img src=".assets/WM(1).jpg" alt="img" align="right" width="400px">
 
 This is my AwesomeWM config ( Forked from Material Awesome
 
@@ -38,8 +38,6 @@ Here are some details about my setup:
 Here are the instructions you should follow to replicate my AwesomeWM setup.
 
 1. Install the Awesome in nix by
-
-   **Arch users** can use the [awesome-git AUR package](https://aur.archlinux.org/packages/awesome-git/).
    
   shell
   ```
