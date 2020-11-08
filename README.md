@@ -19,8 +19,10 @@
 <img src=".assets/2020-11-08-181644_1366x768_scrot.png" alt="img" align="center" width="900px">
 
 ****
+
+***Greetings Nix Users**
+
 <img src=".assets/WM(1).jpg" alt="img" align="right" width="400px">
-****
 
 This is my AwesomeWM config ( Forked from Material Awesome
 
