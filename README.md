@@ -71,6 +71,7 @@ Here are the instructions you should follow to replicate my AwesomeWM setup.
   shell
   ```
   sudo nixos-rebuild switch
+  sudo reboot
   ```
  
   
