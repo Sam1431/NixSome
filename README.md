@@ -148,3 +148,4 @@ I use <kbd>super</kbd> AKA Windows key as my main modifier.
 | super + `left click (drag)` | Move |
 | super + `right click (drag)` | Resize |
 
+-** Also Do not forget to fork **
