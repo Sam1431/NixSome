@@ -60,7 +60,7 @@ Here are the instructions you should follow to replicate my AwesomeWM setup.
 
 1. Install the Awesome in nix by
    
-  shell
+  Shell
   ```
   sudo nano /etc/nixos/configuration.nix
   ```
@@ -68,7 +68,7 @@ Here are the instructions you should follow to replicate my AwesomeWM setup.
   ```
   services.xserver.windowManager.awesome.enable = true;
   ```
-  shell
+  Shell
   ```
   sudo nixos-rebuild switch
   sudo reboot
@@ -77,9 +77,9 @@ Here are the instructions you should follow to replicate my AwesomeWM setup.
   
 2. Install dependencies and enable services
 
-   In Shell
-   ```
-   sudo nix-env -iA nixos.rofi nixos.alacritty nixos.vim nixos.compton
+  Shell
+  ```
+  sudo nix-env -iA nixos.rofi nixos.alacritty nixos.vim nixos.compton
 
 3. Install needed fonts
 
