@@ -150,7 +150,7 @@ I use <kbd>super</kbd> AKA Windows key as my main modifier.
 
 ****
 Recommendation
-
+```
 - **OS**              - NixOS
 - **Package Manager** - Nix
 - **Window Manager**  - AwesomeWM (Install instruction for nix included)
@@ -158,6 +158,8 @@ Recommendation
 - **Web Browser**     - luakit ( If you are familiar with lua) else Firefox
 - **TextEditor**      - TUI:Vim , GUI:Geany
 - **FileManager**     - TUI:Ranger , GUI:Pcmanfm
+```
+
 ****
 - And do not forget to fork this repo to add you own bling to it
 
