@@ -148,4 +148,18 @@ I use <kbd>super</kbd> AKA Windows key as my main modifier.
 | super + `left click (drag)` | Move |
 | super + `right click (drag)` | Resize |
 
--** Also Do not forget to fork **
+****
+Recommendation
+
+**OS**              - NixOS
+**Package Manager** - Nix
+**Window Manager**  - AwesomeWM (Install instruction for nix included)
+**Terminal**        - Alacritty
+**Web Browser**     - luakit ( If you are familiar with lua) else Firefox
+**TextEditor**      - TUI:Vim , GUI:Geany
+**FileManager**     - TUI:Ranger , GUI:Pcmanfm
+****
+- And do not forget to fork this repo to add you own bling to it
+
+****
+
