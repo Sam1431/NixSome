@@ -80,6 +80,7 @@ Here are the instructions you should follow to replicate my AwesomeWM setup.
   Shell
   ```
   sudo nix-env -iA nixos.rofi nixos.alacritty nixos.vim nixos.compton
+  ```
 
 3. Install needed fonts
 
